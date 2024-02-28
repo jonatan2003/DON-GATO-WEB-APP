@@ -2,12 +2,7 @@ import { DataTypes } from 'sequelize';
 import db from '../db/connection';
 
 const Prestamo = db.define('Prestamo', {
-  idprestamo: {
-    type: DataTypes.INTEGER,
-    primaryKey: true,
-    autoIncrement: true,
-    allowNull: false,
-  },
+ 
   idcliente: {
     type: DataTypes.INTEGER,
     allowNull: false,

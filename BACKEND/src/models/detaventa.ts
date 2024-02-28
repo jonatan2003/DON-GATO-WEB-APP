@@ -2,12 +2,7 @@ import { DataTypes } from 'sequelize';
 import db from '../db/connection';
 
 const DetalleVenta = db.define('DetalleVenta', {
-  iddetaventa: {
-    type: DataTypes.INTEGER,
-    primaryKey: true,
-    autoIncrement: true,
-    allowNull: false,
-  },
+ 
   idventa: {
     type: DataTypes.INTEGER,
     allowNull: false,

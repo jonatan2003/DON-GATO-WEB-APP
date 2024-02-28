@@ -2,12 +2,7 @@ import { DataTypes } from 'sequelize';
 import db from '../db/connection';
 
 const Cliente = db.define('Cliente', {
-  idcliente: {
-    type: DataTypes.INTEGER,
-    primaryKey: true,
-    autoIncrement: true,
-    allowNull: false,
-  },
+ 
   nombre: {
     type: DataTypes.STRING,
     allowNull: false,

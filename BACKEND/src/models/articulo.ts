@@ -2,12 +2,7 @@ import { DataTypes } from 'sequelize';
 import db from '../db/connection';
 
 const Articulo = db.define('Articulo', {
-  idarticulo: {
-    type: DataTypes.INTEGER,
-    primaryKey: true,
-    autoIncrement: true,
-    allowNull: false,
-  },
+  
   idmarca: {
     type: DataTypes.INTEGER,
     allowNull: false,

@@ -3,12 +3,7 @@ import db from '../db/connection';
 import Empleado from './empleados'; // Asegúrate de importar el modelo correcto
 
 const Usuario = db.define('Usuario', {
-  idusuario: {
-    type: DataTypes.INTEGER,
-    primaryKey: true,
-    autoIncrement: true,
-    allowNull: false,
-  },
+ 
   idempleado: {
     type: DataTypes.INTEGER,
     allowNull: false,
